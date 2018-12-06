@@ -49,7 +49,7 @@ int initServer(int port) {
 	}
 
 
-	// set up htpp server option 
+	// set up htpp server option l
 	mg_set_protocol_http_websocket(nc);
 
 	s_http_server_opts.document_root = ".";
