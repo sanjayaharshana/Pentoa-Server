@@ -8022,7 +8022,7 @@ static void mg_send_directory_listing(struct mg_connection *nc, const char *dir,
 	/* TODO(rojer): Remove when cesanta/dev/issues/197 is fixed. */
 	nc->flags |= MG_F_SEND_AND_CLOSE;
 }
-#endif /* MG_ENABLE_DIRECTORY_LISTING */
+#endif /* MG_ENABLE_DIRECTORY_LISTING 3*/
 
 /*
 * Given a directory path, find one of the files specified in the
