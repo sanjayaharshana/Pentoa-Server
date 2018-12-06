@@ -3,7 +3,7 @@
 #endif
 /*
 * Copyright (c) 2004-2013 Sergey Lyubka
-* Copyright (c) 2013-2015 Cesanta Software Limited
+* Copyright (c) 2013-2015 SourceWallet Inc
 * All rights reserved
 *
 * This software is dual-licensed: you can redistribute it and/or modify
@@ -504,7 +504,7 @@ typedef struct stat cs_stat_t;
 #line 1 "common/platforms/platform_esp32.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -561,7 +561,7 @@ typedef struct stat cs_stat_t;
 #line 1 "common/platforms/platform_esp8266.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -634,7 +634,7 @@ typedef struct stat cs_stat_t;
 #line 1 "common/platforms/platform_cc3100.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -695,7 +695,7 @@ int inet_pton(int af, const char *src, void *dst);
 #line 1 "common/platforms/platform_cc3200.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -832,7 +832,7 @@ extern "C" {
 #line 1 "common/platforms/platform_cc3220.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -956,7 +956,7 @@ extern "C" {
 #line 1 "common/platforms/platform_msp432.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -1076,7 +1076,7 @@ extern "C" {
 #line 1 "common/platforms/platform_tm4c129.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -1148,7 +1148,7 @@ typedef struct stat cs_stat_t;
 #line 1 "common/platforms/platform_mbed.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -1244,7 +1244,7 @@ in_addr_t inet_addr(const char *cp);
 #line 1 "common/platforms/platform_nrf51.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -1301,7 +1301,7 @@ int gettimeofday(struct timeval *tp, void *tzp);
 #line 1 "common/platforms/platform_nrf52.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -1361,7 +1361,7 @@ int gettimeofday(struct timeval *tp, void *tzp);
 #line 1 "common/platforms/simplelink/cs_simplelink.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -1744,7 +1744,7 @@ const char *strerror();
 #line 1 "common/platforms/platform_nxp_lpc.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -1812,7 +1812,7 @@ typedef struct stat cs_stat_t;
 #line 1 "common/platforms/platform_nxp_kinetis.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -1858,7 +1858,7 @@ typedef struct stat cs_stat_t;
 #line 1 "common/platforms/platform_pic32.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -1910,7 +1910,7 @@ char *inet_ntoa(struct in_addr in);
 #line 1 "common/platforms/platform_stm32.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -1964,7 +1964,7 @@ typedef struct stat cs_stat_t;
 #line 1 "common/platforms/lwip/mg_lwip.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -2047,7 +2047,7 @@ void mg_lwip_set_keepalive_params(struct mg_connection *nc, int idle,
 #line 1 "common/cs_md5.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -2095,7 +2095,7 @@ extern "C" {
 #line 1 "common/cs_sha1.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -2149,7 +2149,7 @@ extern "C" {
 #line 1 "common/cs_time.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -2194,7 +2194,7 @@ extern "C" {
 #line 1 "common/mg_str.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -2295,7 +2295,7 @@ extern "C" {
 #line 1 "common/mbuf.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -2395,7 +2395,7 @@ extern "C" {
 #line 1 "common/cs_base64.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -2464,7 +2464,7 @@ extern "C" {
 #line 1 "common/str_util.h"
 #endif
 /*
-* Copyright (c) 2014-2018 Cesanta Software Limited
+* Copyright (c) 2018-2018 SourceWallet Inc
 * All rights reserved
 *
 * Licensed under the Apache License, Version 2.0 (the ""License"");
@@ -3418,7 +3418,7 @@ struct {								\
 #line 1 "mongoose/src/mg_features.h"
 #endif
 /*
-* Copyright (c) 2014-2016 Cesanta Software Limited
+* Copyright (c) 2018-2016 SourceWallet Inc
 * All rights reserved
 */
 
@@ -3597,7 +3597,7 @@ struct {								\
 #line 1 "mongoose/src/mg_net_if.h"
 #endif
 /*
-* Copyright (c) 2014-2016 Cesanta Software Limited
+* Copyright (c) 2018-2016 SourceWallet Inc
 * All rights reserved
 */
 
@@ -3731,7 +3731,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_ssl_if.h"
 #endif
 /*
-* Copyright (c) 2014-2016 Cesanta Software Limited
+* Copyright (c) 2018-2016 SourceWallet Inc
 * All rights reserved
 */
 
@@ -3789,7 +3789,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_net.h"
 #endif
 /*
-* Copyright (c) 2014 Cesanta Software Limited
+* Copyright (c) 2018 SourceWallet Inc
 * All rights reserved
 * This software is dual-licensed: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License version 2 as
@@ -4384,7 +4384,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_uri.h"
 #endif
 /*
-* Copyright (c) 2014 Cesanta Software Limited
+* Copyright (c) 2018 SourceWallet Inc
 * All rights reserved
 */
 
@@ -4454,7 +4454,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_util.h"
 #endif
 /*
-* Copyright (c) 2014 Cesanta Software Limited
+* Copyright (c) 2018 SourceWallet Inc
 * All rights reserved
 */
 
@@ -4672,7 +4672,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_http.h"
 #endif
 /*
-* Copyright (c) 2014 Cesanta Software Limited
+* Copyright (c) 2018 SourceWallet Inc
 * All rights reserved
 */
 
@@ -5668,7 +5668,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_mqtt.h"
 #endif
 /*
-* Copyright (c) 2014 Cesanta Software Limited
+* Copyright (c) 2018 SourceWallet Inc
 * All rights reserved
 * This software is dual-licensed: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License version 2 as
@@ -5899,7 +5899,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_mqtt_server.h"
 #endif
 /*
-* Copyright (c) 2014 Cesanta Software Limited
+* Copyright (c) 2018 SourceWallet Inc
 * All rights reserved
 * This software is dual-licensed: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License version 2 as
@@ -6006,7 +6006,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_dns.h"
 #endif
 /*
-* Copyright (c) 2014 Cesanta Software Limited
+* Copyright (c) 2018 SourceWallet Inc
 * All rights reserved
 */
 
@@ -6173,7 +6173,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_dns_server.h"
 #endif
 /*
-* Copyright (c) 2014 Cesanta Software Limited
+* Copyright (c) 2018 SourceWallet Inc
 * All rights reserved
 */
 
@@ -6270,7 +6270,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_resolv.h"
 #endif
 /*
-* Copyright (c) 2014 Cesanta Software Limited
+* Copyright (c) 2018 SourceWallet Inc
 * All rights reserved
 */
 
@@ -6354,7 +6354,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_coap.h"
 #endif
 /*
-* Copyright (c) 2015 Cesanta Software Limited
+* Copyright (c) 2015 SourceWallet Inc
 * All rights reserved
 * This software is dual-licensed: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License version 2 as
@@ -6522,7 +6522,7 @@ extern "C" {
 #line 1 "mongoose/src/mg_sntp.h"
 #endif
 /*
-* Copyright (c) 2016 Cesanta Software Limited
+* Copyright (c) 2016 SourceWallet Inc
 * All rights reserved
 */
 
@@ -6579,7 +6579,7 @@ struct mg_connection *mg_sntp_get_time(struct mg_mgr *mgr,
 #line 1 "mongoose/src/mg_socks.h"
 #endif
 /*
-* Copyright (c) 2017 Cesanta Software Limited
+* Copyright (c) 2017 SourceWallet Inc
 * All rights reserved
 */
 

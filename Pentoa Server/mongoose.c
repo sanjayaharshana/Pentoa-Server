@@ -8001,7 +8001,7 @@ static void mg_send_directory_listing(struct mg_connection *nc, const char *dir,
 		nc,
 		"<html><head><title>Index of %.*s</title>%s%s"
 		"<style>th,td {text-align: left; padding-right: 1em; "
-		"font-family: monospace; }</style></head>\n"
+		"font-family: monospace; }</style></head>\n"		
 		"<body><h1>Index of %.*s</h1>\n<table cellpadding=0><thead>"
 		"<tr><th><a href=# rel=0>Name</a></th><th>"
 		"<a href=# rel=1>Modified</a</th>"

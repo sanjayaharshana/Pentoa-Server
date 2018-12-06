@@ -55,6 +55,8 @@ int initServer(int port) {
 	s_http_server_opts.document_root = ".";
 
 	s_http_server_opts.enable_directory_listing = "yes";
+
+
 	
 	
 
