@@ -119,7 +119,7 @@
     <ClCompile Include="mongoose.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mongoose.h" />
+    <ClInclude Include="pentoa.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

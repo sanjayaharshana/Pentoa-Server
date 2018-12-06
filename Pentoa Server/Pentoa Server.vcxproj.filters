@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mongoose.h">
+    <ClInclude Include="pentoa.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -6,7 +6,7 @@
 
 // Include Mongoose 
 
-#include "mongoose.h";
+#include "pentoa.h";
 #include <string>
 #include <iostream>
 
@@ -38,7 +38,7 @@ int initServer(int port) {
 
 	//Init Mangoose
 	mg_mgr_init(&mgr, NULL);
-	std::cout << "Starting Web Server on port" << sPort << std::endl;
+	std::cout << "Starting Fucking Web Server on port" << sPort << std::endl;
 
 	nc = mg_bind(&mgr, sPort, ev_handler);
 
@@ -55,6 +55,8 @@ int initServer(int port) {
 	s_http_server_opts.document_root = ".";
 
 	s_http_server_opts.enable_directory_listing = "yes";
+	
+	
 
 	for (;;) {
 		mg_mgr_poll(&mgr, 1000);
@@ -71,7 +73,7 @@ int initServer(int port) {
 
 int main(void) {
 	int port;
-	std::cout << "Select server port" << std::endl;
+	std::cout << "Select errr.fucking server port" << std::endl;
 	std::cin >> port;
 
 	//fail case
