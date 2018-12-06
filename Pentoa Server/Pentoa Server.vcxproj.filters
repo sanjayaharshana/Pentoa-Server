@@ -18,7 +18,7 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mongoose.c">
+    <ClCompile Include="pentoa.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

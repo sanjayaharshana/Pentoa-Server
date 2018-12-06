@@ -116,7 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="mongoose.c" />
+    <ClCompile Include="pentoa.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pentoa.h" />
