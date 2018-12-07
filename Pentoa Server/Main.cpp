@@ -55,7 +55,11 @@ int initServer(int port) {
 	
 	s_http_server_opts.cgi_file_pattern = "**.cgi$|**.pl$|**.php$";
 
+	s_http_server_opts.cgi_interpreter = "php_engine/php-cgi.exe";
+
 	s_http_server_opts.document_root = "public_html/";
+
+
 
 	s_http_server_opts.enable_directory_listing = "yes";
 	
