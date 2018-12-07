@@ -7091,7 +7091,7 @@ const char *mg_status_message(int status_code) {
 	case 403:
 		return "Forbidden";
 	case 404:
-		return "Not Found";
+		return "<h2>Not Found</h2>";
 	case 416:
 		return "Requested Range Not Satisfiable";
 	case 418:
